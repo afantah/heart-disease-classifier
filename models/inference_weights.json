@@ -1,0 +1,58 @@
+{
+  "features": [
+    "age",
+    "blood_pressure",
+    "cholesterol",
+    "bmi",
+    "physical_activity",
+    "stress_level",
+    "sex_Male",
+    "smoker_Yes",
+    "diabetes_Yes",
+    "family_history_Yes"
+  ],
+  "num_cols": [
+    "age",
+    "blood_pressure",
+    "cholesterol",
+    "bmi",
+    "physical_activity",
+    "stress_level"
+  ],
+  "cat_cols": [
+    "sex",
+    "smoker",
+    "diabetes",
+    "family_history"
+  ],
+  "scaler_means": [
+    55.4675,
+    132.8825,
+    220.97,
+    29.045,
+    2.0175,
+    4.9025
+  ],
+  "scaler_scales": [
+    14.318133389167738,
+    26.809582125613225,
+    43.96651111925985,
+    6.373093832668714,
+    1.4025668433269054,
+    2.5996141540620985
+  ],
+  "lr_intercept": 0.030182989001658556,
+  "lr_coefficients": [
+    -0.05781163442172574,
+    -0.1027327826947277,
+    -0.031199876863480195,
+    0.019076146455850634,
+    0.024866060388241636,
+    -0.0037767906651204005,
+    0.042958422686402896,
+    0.07095302473486759,
+    0.025181065270862463,
+    0.00046694162338206983
+  ],
+  "best_model_name": "Gradient Boosting"
+}
